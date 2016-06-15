@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>01菜单</title>
+<link href="Css/01.css" rel="stylesheet" />
+</head>
+<script type="text/javascript" src="Js/01.js"></script>
+<body>
+<div id="nav_1">
+	<!-- 在下面修改主级菜单信息 -->
+    <ul id="uL1">
+        <li><a href="#">JavaScript</a></li>
+        <li><a href="#">JAVA</a></li>
+        <li><a href="#">SSH</a></li>
+        <li><a href="#">前段设计</a></li>
+        <li><a href="#">PHP</a></li>
+        <li><a href="#">ASP</a></li>
+        <li><a href="#">THINKPHP</a></li>
+    </ul>   
+    <!--  这个div用来存放下级导航菜单所要显示的数据 -->
+    <div id="nav_m">
+  		  <!-- 以下一个ul对应上面的一个li，例如javascript对应下面第一个ul -->
+          <ul>
+          	<li>Jquery,Ajax,Other,More,MoreAnd</li>
+            <li>基础,Swing,Applet,More</li>
+            <li>Spring,Habernate,Struct</li>
+            <li>HTMl,CSS,SCRIPT</li>
+            <li>基础,框架,其他</li>
+            <li></li>
+            <li>HTMl,CSS,SCRIPT</li>
+          </ul>
+           <!-- 对应上面下级菜单中的链接，也可以不写 -->
+          <ul>
+          	<li>http://www.cutewindow.com,#,#,#,#</li>
+            <li>#,#,#,#</li>
+            <li>#,#,#</li>
+            <li>#,#,#</li>
+            <li>#,#,#</li>
+            <li></li>
+            <li>#,#,#</li>
+          </ul>
+    </div>
+    <!-- 下拉菜单在此中显示 -->
+    <div id="nav_1_js"></div>
+</div>
+</body>
+</html>
